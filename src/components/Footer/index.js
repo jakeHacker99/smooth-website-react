@@ -49,6 +49,41 @@ const Footer = () => {
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialLogo to="/">
+            dolla © {new DataCue().getFullYear()} All rights reserved.
+            <SocialIcons>
+              <SocialIconLink
+                href="//foowww.facebook.com/"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <FaFacebook />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.instagram.com/"
+                target="_blank"
+                aria-label="Instargram"
+              >
+                <FaInstagram />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.youtube.com/"
+                target="_blank"
+                aria-label="Youtube"
+              >
+                <FaYoutube />
+              </SocialIconLink>
+              <SocialIconLink
+                href="//www.http://twitter.com/"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <FaTwitter />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialLogo>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );
