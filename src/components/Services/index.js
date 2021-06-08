@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/wallet.svg";
+import Icon1 from "../../images/grow.png";
 import Icon2 from "../../images/pc.svg";
-import Icon3 from "../../images/wallet.svg";
+import Icon3 from "../../images/umbrella.png";
 import {
   ServicesContainer,
   ServicesH1,
@@ -28,7 +28,8 @@ const Services = () => {
           <ServicesIcon src={Icon2} />
           <ServicesH2>Virtual Offices</ServicesH2>
           <ServicesP>
-            You can access our platform anywhere in the world
+            Login anytime any where! You can access our platform anywhere in the
+            world.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
